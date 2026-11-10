@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">كاشف التصفيق</string>
+    <string name="app_tagline">اعثر على هاتفك المفقود بالتصفيق مرتين متتاليتين</string>
+
+    <!-- Navigation -->
+    <string name="nav_main">الرئيسية</string>
+    <string name="nav_calibration">معايرة الميكروفون</string>
+    <string name="nav_settings">الإعدادات</string>
+    <string name="nav_privacy">الخصوصية والبطارية</string>
+
+    <!-- Main Screen States -->
+    <string name="status_disarmed">الحماية متوقفة</string>
+    <string name="status_armed">الحماية نشطة - يستمع للتصفيق</string>
+    <string name="status_alarm">تم اكتشاف التصفيق! الإنذار يعمل</string>
+
+    <string name="desc_disarmed">الميكروفون مغلق ولا يستهلك أي طاقة. اضغط على الزر أدناه لتفعيل الحماية قبل قفل الهاتف أو تركه.</string>
+    <string name="desc_armed">الهاتف يستمع الآن لصوت تصفيقتين متتاليتين حتى أثناء قفل الشاشة. صفّق مرتين للعثور عليه.</string>
+    <string name="desc_alarm">صفير عالي ووميض فلاش واهتزاز لمساعدتك على تحديد مكان الجهاز في الغرفة أو تحت الوسائد.</string>
+
+    <!-- Buttons -->
+    <string name="action_start_protection">تفعيل الحماية والاستماع</string>
+    <string name="action_stop_protection">إيقاف الحماية</string>
+    <string name="action_stop_alarm">إيقاف صوت الإنذار</string>
+    <string name="action_test_clap">اختبار الحساسية الآن</string>
+
+    <!-- Notifications -->
+    <string name="notif_channel_name">خدمة كاشف التصفيق</string>
+    <string name="notif_channel_desc">إشعار دائم لتشغيل خدمة الميكروفون في الخلفية مع إمكانية الإيقاف المباشر</string>
+    <string name="notif_title_listening">كاشف التصفيق نشط 👂</string>
+    <string name="notif_text_listening">الخدمة تراقب الصوت للتصفيق. اضغط لإيقاف الحماية.</string>
+    <string name="notif_action_stop">إيقاف</string>
+
+    <!-- Alarm Triggered Notification -->
+    <string name="notif_title_alarm">🚨 تم العثور على الهاتف!</string>
+    <string name="notif_text_alarm">الإنذار يعمل حالياً. انقر لإيقاف الصوت والفلاش.</string>
+
+    <!-- Sensitivity Settings -->
+    <string name="sensitivity_title">حساسية التقاط التصفيق</string>
+    <string name="sensitivity_low">منخفضة (للغرف الصاخبة لمنع الإنذار الكاذب)</string>
+    <string name="sensitivity_medium">متوسطة (موصى بها للاستخدام المنزلي والمكتبي)</string>
+    <string name="sensitivity_high">عالية (للأماكن الهادئة أو تحت الأغطية)</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">إعدادات التنبيه والاستجابة</string>
+    <string name="pref_flashlight">وميض ضوء الفلاش (الكشاف)</string>
+    <string name="pref_flashlight_desc">تشغيل كشاف الكاميرا بشكل متقطع لتسهيل الرؤية في الظلام</string>
+    <string name="pref_flash_speed">سرعة وميض الفلاش</string>
+    <string name="flash_speed_slow">هادئ (300 ملّي ثانية)</string>
+    <string name="flash_speed_medium">سريع (150 ملّي ثانية)</string>
+    <string name="flash_speed_strobe">ستروب شديد (80 ملّي ثانية)</string>
+
+    <string name="pref_vibration">اهتزاز الهاتف</string>
+    <string name="pref_vibration_desc">تفعيل نمط اهتزاز تحذيري قوي عند إطلاق الإنذار</string>
+
+    <string name="pref_alarm_sound">نغمة التنبيه</string>
+    <string name="sound_siren">صفارة إنذار طوارئ حادة</string>
+    <string name="sound_radar">نبضات رادار متسارعة</string>
+    <string name="sound_bell">جرس عالي النبرة</string>
+
+    <string name="pref_alarm_duration">مدة استمرار الإنذار تلقائياً</string>
+    <string name="duration_seconds">%1$d ثانية</string>
+
+    <string name="pref_triple_clap_stop">إيقاف بالثلاث تصفيقات (تجريبي)</string>
+    <string name="pref_triple_clap_stop_desc">ميزة تجريبية لإيقاف الإنذار عند سماع 3 تصفيقات متتالية دون لمس الشاشة (معطلة افتراضياً)</string>
+
+    <!-- Calibration Screen -->
+    <string name="calib_title">معايرة واختبار الميكروفون</string>
+    <string name="calib_info">هذه الشاشة تعرض مقياس شدة الصوت اللحظي لمساعدتك في اختبار التصفيق وضبط الحساسية. الصوت لا يتم حفظه أو إرساله مطلقاً.</string>
+    <string name="calib_mic_level">مستوى الصوت المباشر (ديسيبل):</string>
+    <string name="calib_threshold">عتبة كشف التصفيق:</string>
+    <string name="calib_clap_count">عدد ضربات التصفيق المكتشفة:</string>
+    <string name="calib_test_hint">جرّب التصفيق مرتين متتاليتين بفاصل ثانية واحدة ولاحظ استجابة المؤشر</string>
+
+    <!-- Privacy & Battery Notice -->
+    <string name="privacy_title">الخصوصية واستهلاك البطارية</string>
+    <string name="privacy_body">1. لا يتم تسجيل أي صوت إطلاقاً: التطبيق يحلل فقط موجات الشدة اللحظية (PCM) في الذاكرة المؤقتة ويحذفها فوراً دون أي تخزين.\n\n2. بدون إنترنت: التطبيق يعمل محلياً 100% بدون أي خوادم أو تتبع.\n\n3. وضع السكون والبطارية: يتم استخدام قفل استيقاظ جزئي (Partial WakeLock) فقط أثناء تفعيل الحماية لضمان عمل الميكروفون عند إطفاء الشاشة. يُنصح بإيقاف الحماية عند عدم الحاجة إليها لتوفير الطاقة.</string>
+    <string name="dnd_disclaimer">تنبيه هام: وفقاً لسياسات نظام أندرويد، لا يمكن للتطبيق تجاوز وضع "عدم الإزعاج" (DND) أو مستوى صوت التنبيهات المكتوم دون إذن وصول خاص. يرجى التأكد من رفع مستوى صوت التنبيهات.</string>
+
+    <!-- Permissions -->
+    <string name="perm_audio_title">إذن الميكروفون مطلوب</string>
+    <string name="perm_audio_desc">يحتاج التطبيق لإذن الميكروفون حصرياً لمعالجة صوت التصفيق أثناء تفعيل الحماية. لا يتم تسجيل أو إرسال أي صوت.</string>
+    <string name="perm_notif_title">إذن الإشعارات</string>
+    <string name="perm_notif_desc">مطلوب في أندرويد 13+ لإظهار الإشعار الدائم الذي يبقي الخدمة حية في الخلفية مع زر الإيقاف السريع.</string>
+    <string name="perm_grant">منح الإذن</string>
+    <string name="perm_granted">تم منح الإذن بنجاح ✓</string>
+</resources>

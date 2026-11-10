@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Clap Finder</string>
+    <string name="app_tagline">Find your misplaced phone with two consecutive hand claps</string>
+
+    <!-- Navigation -->
+    <string name="nav_main">Home</string>
+    <string name="nav_calibration">Calibration</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_privacy">Privacy &amp; Battery</string>
+
+    <!-- Main Screen States -->
+    <string name="status_disarmed">Protection Inactive</string>
+    <string name="status_armed">Armed &amp; Listening</string>
+    <string name="status_alarm">Claps Detected! Alarm Active</string>
+
+    <string name="desc_disarmed">Microphone is inactive and consumes zero energy. Tap the button below to arm protection before locking your device.</string>
+    <string name="desc_armed">Phone is listening for two rapid claps even while screen is off. Clap twice to locate your device.</string>
+    <string name="desc_alarm">Loud siren, flashing camera LED, and intense vibration active to guide you to your phone.</string>
+
+    <!-- Buttons -->
+    <string name="action_start_protection">Start Protection</string>
+    <string name="action_stop_protection">Stop Protection</string>
+    <string name="action_stop_alarm">Stop Alarm</string>
+    <string name="action_test_clap">Calibrate &amp; Test</string>
+
+    <!-- Notifications -->
+    <string name="notif_channel_name">Clap Finder Protection</string>
+    <string name="notif_channel_desc">Persistent notification required to maintain microphone foreground service with instant stop action</string>
+    <string name="notif_title_listening">Clap Finder Active 👂</string>
+    <string name="notif_text_listening">Monitoring acoustic impulses for double claps. Tap to stop.</string>
+    <string name="notif_action_stop">Stop</string>
+
+    <!-- Alarm Triggered Notification -->
+    <string name="notif_title_alarm">🚨 Phone Found!</string>
+    <string name="notif_text_alarm">Alarm is currently ringing. Tap to silence audio and strobe.</string>
+
+    <!-- Sensitivity Settings -->
+    <string name="sensitivity_title">Detection Sensitivity</string>
+    <string name="sensitivity_low">Low (For noisy spaces to prevent false triggers)</string>
+    <string name="sensitivity_medium">Medium (Recommended for home &amp; office)</string>
+    <string name="sensitivity_high">High (For quiet spaces or muffled under blankets)</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">Alarm &amp; Response Preferences</string>
+    <string name="pref_flashlight">Camera LED Flashlight</string>
+    <string name="pref_flashlight_desc">Blinks camera flash strobe to reveal device position in dark areas</string>
+    <string name="pref_flash_speed">Strobe Blinking Rate</string>
+    <string name="flash_speed_slow">Gentle (300 ms)</string>
+    <string name="flash_speed_medium">Rapid (150 ms)</string>
+    <string name="flash_speed_strobe">Hyper-strobe (80 ms)</string>
+
+    <string name="pref_vibration">Haptic Vibration</string>
+    <string name="pref_vibration_desc">Rhythmic tactical vibration motor alert</string>
+
+    <string name="pref_alarm_sound">Alarm Sound</string>
+    <string name="sound_siren">High-Pitch Emergency Siren</string>
+    <string name="sound_radar">Accelerating Radar Beep</string>
+    <string name="sound_bell">Clear High Bell Chime</string>
+
+    <string name="pref_alarm_duration">Automatic Alarm Timeout</string>
+    <string name="duration_seconds">%1$d seconds</string>
+
+    <string name="pref_triple_clap_stop">Triple Clap Silence (Experimental)</string>
+    <string name="pref_triple_clap_stop_desc">Disables alarm automatically if three consecutive claps are heard without touching the device (Disabled by default)</string>
+
+    <!-- Calibration Screen -->
+    <string name="calib_title">Microphone Calibration &amp; Live Meter</string>
+    <string name="calib_info">This screen displays real-time input amplitude to help calibrate sensitivity. Audio is analyzed in volatile RAM and is never recorded or stored.</string>
+    <string name="calib_mic_level">Current Amplitude Level:</string>
+    <string name="calib_threshold">Trigger Threshold:</string>
+    <string name="calib_clap_count">Impulses Detected:</string>
+    <string name="calib_test_hint">Try clapping twice with a 1-second gap to observe trigger behavior</string>
+
+    <!-- Privacy & Battery Notice -->
+    <string name="privacy_title">Microphone Privacy &amp; Battery Safety</string>
+    <string name="privacy_body">1. Zero Audio Storage: Audio buffers (PCM 16-bit) are evaluated on-device in mathematical DSP loops and instantly discarded. Nothing is written to storage or network.\n\n2. 100% Offline: No internet permission, zero telemetry, no cloud connectivity.\n\n3. Partial WakeLock &amp; Battery: A CPU wake lock keeps the audio pipeline running while the screen is off. Remember to disarm when not needed to conserve battery.</string>
+    <string name="dnd_disclaimer">Important Note: In compliance with Android platform standards, this application cannot bypass Do Not Disturb (DND) or silent ringer volume without explicit system policy permissions. Please ensure your Alarm volume channel is audible.</string>
+
+    <!-- Permissions -->
+    <string name="perm_audio_title">Microphone Permission</string>
+    <string name="perm_audio_desc">Required solely for real-time acoustic clap detection while armed. No recordings are ever made or saved.</string>
+    <string name="perm_notif_title">Notification Permission</string>
+    <string name="perm_notif_desc">Required on Android 13+ to host the Foreground Service notification allowing screen-off monitoring.</string>
+    <string name="perm_grant">Grant Permission</string>
+    <string name="perm_granted">Permission Granted ✓</string>
+</resources>

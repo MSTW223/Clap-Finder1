@@ -1,0 +1,6 @@
+{
+  "name": "Clap Finder - كاشف التصفيق",
+  "description": "Production-quality native Android application and interactive simulator for locating misplaced phones via double-clap acoustic detection, featuring screen-off foreground service, loud alarm, LED torch blinking, and Material 3 RTL UI.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
